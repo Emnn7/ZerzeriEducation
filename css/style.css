@@ -1,10 +1,16 @@
 /* Base Styles */
 :root {
-    --primary: #FF7F2A;
-    --primary-dark: #E66A1A;
-    --secondary: #333333;
-    --light: #FFFFFF;
-    --light-gray: #F5F5F5;
+    --primary: #FF7F2A; /* Vibrant orange */
+    --primary-light: #FFA347; /* Light orange */
+    --primary-dark: #E66A1A; /* Darker orange */
+    --secondary: #333333; /* Dark forest green */
+    --secondary-light: #4A7D42; /* Lighter forest green */
+    --accent-yellow: #FFD166; /* Yellowish accent */
+    --light: #FFF5EB; /* Very light orange tint */
+    --light-gray: #FFEBDC; /* Light orange-gray */
+    --accent-1: #FFB347; /* Light orange accent */
+    --accent-2: #FFD699; /* Pale orange accent */
+    --accent-3: #FFE4C4; /* Very light orange accent */
     --transition: all 0.3s ease;
 }
 
