@@ -1,0 +1,319 @@
+.programs-main{
+    background-color: var(--primary-dark);
+}
+/* Programs Hero */
+.programs-hero {
+    background: linear-gradient(135deg, rgba(111, 190, 243, 0.3) 0%, rgba(235, 245, 103, 0.3) 100%),
+                url('../images/programs-hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 8rem 0 5rem;
+    margin-top: 70px;
+}
+
+.programs-hero h1 {
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s ease-out;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.programs-hero p {
+    font-size: 1.5rem;
+    animation: fadeInUp 1s ease-out 0.3s forwards;
+    opacity: 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Programs Main */
+.programs-hero {
+    background: var(--primary-dark);
+    color: white;
+    text-align: center;
+    padding: 120px 0 80px;
+    margin-top: 70px;
+}
+
+.programs-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.programs-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Programs Main - Clean Cards */
+.programs-main {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.program-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.program-card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    padding: 0;
+    transition: transform 0.3s ease;
+    border: 1px solid #eee;
+}
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.program-card.featured {
+    border: 2px solid var(--primary-light);
+}
+
+.program-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    border-color: var(--primary);
+}
+
+.program-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: var(--primary-light);
+    color: var(--secondary);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    z-index: 2;
+}
+
+.program-icon {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.program-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.program-card:hover .program-icon img {
+    transform: scale(1.1);
+}
+.program-card h2 {
+    color: var(--primary);
+    margin: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.program-card p {
+    margin: 0 1.5rem 1.5rem;
+    color: var(--text-medium);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.program-features {
+    margin: 0 1.5rem 1.5rem;
+    padding-left: 1.5rem;
+    list-style-type: none;
+}
+
+.program-features li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    color: var(--text-medium);
+    padding-left: 25px;
+    text-align: left;
+}
+
+.program-features li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-light);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.program-card .cta-button {
+    margin: 0 1.5rem;
+    display: block;
+    width: calc(100% - 3rem);
+}
+
+/* Program Benefits */
+.program-benefits {
+    padding: 5rem 0;
+    background-color: var(--light-gray);
+    text-align: center;
+}
+
+.program-benefits h2 {
+    color: var(--primary);
+    margin-bottom: 3rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.benefit-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.benefit-icon {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(111, 190, 243, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    color: var(--primary);
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+    background-color: var(--primary);
+    color: white;
+    transform: rotate(15deg) scale(1.1);
+}
+
+.benefit-card h3 {
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+}
+
+.benefit-card p {
+    color: var(--text-medium);
+    line-height: 1.8;
+}
+
+/* Services Gateway Page */
+.services-gateway {
+    padding: 80px 0;
+}
+
+.service-options {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-option {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.service-option:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.service-image {
+    flex: 1;
+}
+
+.service-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.service-content {
+    flex: 1;
+}
+
+.service-content h2 {
+    color: var(--primary-dark);
+    margin-bottom: 20px;
+}
+
+.service-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.service-content li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.service-content li::before {
+    content: "✓";
+    color: #0066cc;
+    position: absolute;
+    left: 0;
+}
+
+.service-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.service-button:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .service-option, .service-option:nth-child(even) {
+        flex-direction: column;
+    }
+    
+    .service-image, .service-content {
+        width: 100%;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .programs-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .programs-hero p {
+        font-size: 1.2rem;
+    }
+    
+    .program-cards {
+        grid-template-columns: 1fr;
+    }
+}
