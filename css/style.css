@@ -1128,6 +1128,10 @@ blockquote {
     
     .programs-hero p {
         font-size: 1.3rem;
+    } 
+
+    .intro-content.animated p{
+        width: 440px;
     }
     
     .hero-button {

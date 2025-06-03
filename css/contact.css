@@ -84,17 +84,14 @@
 }
 
 .form-group label {
-     position: absolute;
-    left: 12px;
-    top: 12px;
-    transition: all 0.3s ease;
-    pointer-events: none;
-    color: var(--text-medium);
-    display: block;
+    position: static;
     margin-bottom: 8px;
+    display: block;
+    color: var(--text-medium);
     font-size: 0.9rem;
     font-weight: 600;
 }
+
 
 .form-group input,
 .form-group textarea {
