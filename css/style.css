@@ -198,22 +198,35 @@ h1, h2, h3, h4 {
 }
 
 /* Service Page Styles */
-.service-hero {
-    padding: 100px 0;
+
+.consultancy-hero, .knowledge-hero {
+    position: relative;
+    padding: 180px 0 120px;
+    background-size: cover;
+    background-position: center;
+    color: white;
     text-align: center;
-    background-color: #EFF8FF;
+    overflow: hidden;
+}
+.consultancy-hero {
+    background: 
+    url('../images/consultancy-hero.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
-.service-hero h1 {
-    font-size: 2.5rem;
+.knowledge-hero {
+    background: url('../images/knowledge-hero.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.consultancy-hero h1, .knowledge-hero h1 {
+    font-size: 3rem;
     margin-bottom: 20px;
-    color: var(--primary-dark);
-}
-
-.service-hero p {
-    font-size: 1.2rem;
-    max-width: 700px;
-    margin: 0 auto;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    animation: fadeInUp 0.8s ease-out;
 }
 
 .program-details, .consultancy-services {
@@ -265,21 +278,10 @@ h1, h2, h3, h4 {
     left: 0;
 }
 
-.age-groups {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-}
 
-.age-group {
-    flex: 1;
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 6px;
-}
 
 .age-group h4 {
-    color: #0066cc;
+    color: var(--primary);
     margin-bottom: 10px;
 }
 
@@ -452,7 +454,8 @@ h1, h2, h3, h4 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(111, 190, 243, 0.3) 0%, rgba(51, 51, 51, 0.6) 100%);
+    background: linear-gradient(135deg, rgba(100, 140, 180, 0.2) 0%, rgba(60, 90, 130, 0.4) 100%);
+
 }
 
 .hero-title {
@@ -1131,7 +1134,7 @@ blockquote {
     } 
 
     .intro-content.animated p{
-        width: 440px;
+        width: 400px;
     }
     
     .hero-button {
