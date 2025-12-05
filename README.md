@@ -44,3 +44,10 @@ cd ZerzeriEducation
 
 3. Open in browser:
 Double-click index.html or run a local server (e.g., VS Code Live Server).
+
+📌 Notes:
+
+This website was designed specifically for Zerzeri Education based on client feedback and preferences. It is a front-end prototype and has not yet been deployed to a live server. The code can be used as-is for demonstration purposes or further developed for production deployment.
+
+
+
