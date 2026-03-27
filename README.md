@@ -1,22 +1,24 @@
-# 📚 Zerzeri Education – Modern Educational Website  
+📚 Zerzeri Education – Modern Educational Website  
 
-A **responsive, multi-page website** for showcasing educational programs, services, and consultancy offerings. Built with pure HTML, CSS, and JavaScript for a fast, interactive user experience.  
+A responsive, multi-page website** for showcasing educational programs, services, and consultancy offerings. Built with pure HTML, CSS, and JavaScript for a fast, interactive user experience.  
 
+🚀 Live Demo
+🔗https://glittering-pastelito-77b92e.netlify.app/
 
-## ✨ Features  
+✨ Features  
 - **Multi-page design**: Home, About, Services, Consultancy, Contact, and more.  
 - **Fully responsive**: Optimized for desktop, tablet, and mobile.  
 - **Interactive UI**: Smooth scrolling, animated headers, dynamic content.  
 - **Professional visuals**: High-quality imagery to highlight programs.  
 - **Modular code**: Clean, well-structured HTML/CSS/JS for easy customization.  
 
-## 🛠 Tech Stack  
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)  
-- **Styling**: Custom CSS (`style.css`, `animations.css`)  
-- **Icons**: [Font Awesome](https://fontawesome.com/)  
-- **Fonts**: [Google Fonts](https://fonts.google.com/)  
+🛠 Tech Stack  
+- Frontend: HTML5, CSS3, JavaScript (ES6+)  
+- Styling: Custom CSS (`style.css`, `animations.css`)  
+- Icons: [Font Awesome](https://fontawesome.com/)  
+- Fonts: [Google Fonts](https://fonts.google.com/)  
 
-## 📂 Project Structure  
+📂 Project Structure  
 
 ZerzeriEducation/
 ├── index.html          # Homepage
